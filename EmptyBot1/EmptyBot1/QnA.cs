@@ -1,4 +1,4 @@
-﻿using Microsoft.AspNetCore;
+using Microsoft.AspNetCore;
 using Microsoft.AspNetCore.Hosting;
 using System;
 using Newtonsoft.Json;
@@ -25,12 +25,12 @@ namespace EmptyBot1
 
         // Authorization endpoint key
         // From Publish Page
-        string endpoint_key = "4142a337-bbea-498f-b25d-e00b6656c92d";
+        string endpoint_key = "Enter-Endpoint-Key";
 
         // Management APIs postpend the version to the route
         // From Publish Page, value after POST
         // Example: /knowledgebases/ZZZ15f8c-d01b-4698-a2de-85b0dbf3358c/generateAnswer
-        string route = "/knowledgebases/234c573b-843b-490b-be6f-149f88aa6cd7/generateAnswer";
+        string route = "/knowledgebases/Enter-Knowledgebase-Key/generateAnswer";
 
         // JSON format for passing question to service
         string question = @"{'question': 'Why cant I see anything in the drop-down when I try to create a new knowledge base?'}";
